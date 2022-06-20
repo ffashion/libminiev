@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-std=gnu11",
+            "-I",
+            "./include",
+            "-g3",
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-Wno-implicit-fallthrough",
+            "-Wno-stack-protector",
+            "-fsanitize=address",
+            "-fno-omit-frame-pointer",
+            "-fsanitize=leak",
+            "-o",
+            "src/log.o",
+            "src/log.c"
+        ],
+        "directory": "/home/fashion/project/libminiev",
+        "file": "src/log.c"
+    }
+]
